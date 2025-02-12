@@ -1,0 +1,25 @@
+body {
+  font-family: "Montserrat", serif;
+  background-color: #121517;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.text-gradient-span {
+  background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
