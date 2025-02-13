@@ -11,6 +11,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
   }
+  &-button {
+    border: none;
+    background-color: transparent;
+  }
 }
 .mobile-menu-wrapper {
   display: flex;

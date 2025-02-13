@@ -1,5 +1,4 @@
 .container {
-  outline: 2px dashed darkgoldenrod;
   padding: 0 15px;
   margin: 0 auto;
   min-width: 378px;
@@ -87,6 +86,10 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.header-button {
+  border: none;
+  background-color: transparent;
+}
 
 .mobile-menu-wrapper {
   display: flex;
@@ -104,6 +107,7 @@ button {
   width: 352px;
 }
 .hero-list {
+  padding-bottom: 36px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -139,4 +143,80 @@ h1 {
   line-height: 109%;
   letter-spacing: -0.03em;
   color: #fff;
+}
+
+.deooration-span-plus {
+  background: linear-gradient(244deg, #237249 0%, #35c66b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-quantity-list {
+  display: flex;
+  gap: 44px;
+}
+.user-quantity-list-title {
+  padding-bottom: 1px;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 109%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.user-quantity-list-paragraph {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 144%;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+  width: 56px;
+}
+
+.what-we-have {
+  padding-bottom: 64px;
+}
+.what-we-have-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 218px;
+  border-radius: 27px;
+  gap: 24px;
+  background-image: url(../../images/);
+}
+.what-we-have-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.what-we-have-item-paragraph {
+  width: 104px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 163%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(18, 21, 23, 0.9);
+}
+.what-we-have-item-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: -0.02em;
+  color: #121517;
+}
+
+.position-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  position: relative;
+}
+
+.postion-of-img {
+  position: absolute;
+  right: 32px;
+  top: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -1,55 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link
-  rel="icon"
-  type="image/svg+xml"
-  href="./public/starbucks-favicon.svg"
-  />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StarBucks</title>
-  <link rel="stylesheet" href="./css/main.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-  />
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="mobile-menu-wrapper">
-        <a href="./index.html" class="header-logotype">StarBucks</a>
-        <img src="./images/burger-menu-img-mobile@1x.png" alt="burger-menu-img-mobile">
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./public/starbucks-favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarBucks</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
       <div class="container">
-        <div class="flex" style="padding-bottom: 26px;">
-          <img src="./images/hero-img-glass-mobile@1x.png" alt="hero-img-glass-mobile">
+        <div class="mobile-menu-wrapper">
+          <a href="./index.html" class="header-logotype">StarBucks</a>
+          <button class="header-button">
+            <img
+            src="./images/burger-menu-img-mobile@1x.png"
+            alt="burger-menu-img-mobile"
+           />
+          </button>
         </div>
-        <h1>  
-          New Cafe
-          by <span class="text-gradient-span">StarBucks</span>        
-        </h1> 
-        <p class="hero-paragraph">
-          Have time to buy the most harmonious drinks in the 
-          new Starbucks coffee and don't forget about the discount!          
-        </p>
-        <ul class="hero-list">
-          <li class="hero-item">
-            <button class="hero-item-button-first">Select a coffee</button>
-          </li>
-          <li class="hero-item"> 
-            <button class="hero-item-button-second">More</button>
-          </li>
-        </ul>
       </div>
-    </section>
-  </main>
-  <footer class="footer"></footer>
-</body>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="flex" style="padding-bottom: 26px">
+            <img
+              src="./images/hero-img-glass-mobile@1x.png"
+              alt="hero-img-glass-mobile"
+            />
+          </div>
+          <h1>New Cafe by <span class="text-gradient-span">StarBucks</span></h1>
+          <p class="hero-paragraph">
+            Have time to buy the most harmonious drinks in the new Starbucks
+            coffee and don't forget about the discount!
+          </p>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <button class="hero-item-button-first">Select a coffee</button>
+            </li>
+            <li class="hero-item">
+              <button class="hero-item-button-second">More</button>
+            </li>
+          </ul>
+          <ul class="user-quantity-list">
+            <li class="user-quantity-list-item">
+              <h2 class="user-quantity-list-title">
+                9k<span class="deooration-span-plus">+</span>
+              </h2>
+              <p class="user-quantity-list-paragraph">Premium Users</p>
+            </li>
+            <li class="user-quantity-list-item">
+              <h2 class="user-quantity-list-title">
+                2k<span class="deooration-span-plus">+</span>
+              </h2>
+              <p class="user-quantity-list-paragraph">Happy Customer</p>
+            </li>
+            <li class="user-quantity-list-item">
+              <h2 class="user-quantity-list-title">
+                28<span class="deooration-span-plus">+</span>
+              </h2>
+              <p class="user-quantity-list-paragraph">Awards Winning</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="what-we-have">
+        <div class="container position-center">
+          <!-- <svg width="90" height="90" class="decoration-svg-we-have">
+            <use
+              href="./images/symbol-defs.svg#icon-star"
+              class="burger-open-svg"
+            ></use>
+          </svg> -->
+          <div class="postion-of-img">
+            <img src="./images/decoration-img-star@1x.png" alt="decoration-img-star">
+          </div>
+          <ul class="what-we-have-list">
+            <li class="what-we-have-item">
+                <img
+                  src="./images/decoration-with-bg-img-heart-mobile@1x.png"
+                  alt="decoration-img-heart-mobile"
+                />
+              <h2 class="what-we-have-item-title">Tasty</h2>
+              <p class="what-we-have-item-paragraph">We have the most delicious coffee</p>
+            </li>
+            <li class="what-we-have-item">
+              <img
+                src="./images/decoration-with-bg-img-rocket-mobile@1x.png"
+                alt="decoration-img-rocket-mobile"
+              />
+              <h2 class="what-we-have-item-title">Fast</h2>
+              <p class="what-we-have-item-paragraph">Our cafe will serve you quickly</p>
+            </li>
+            <li class="what-we-have-item">
+              <div class="decoration-background">
+                <img src="./images/decoration-with-bg-money-img-mobile@1x.png" alt="decoration-money-img-mobile" />
+              </div>
+              <h2 class="what-we-have-item-title">Available</h2>
+              <p class="what-we-have-item-paragraph">Cafe will serveat the most pleasant prices</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
